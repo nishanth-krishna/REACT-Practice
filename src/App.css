@@ -10,6 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    height: 60px;
   }
 }
 
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+.nav-items li{
+  padding: 10px;
 }
