@@ -49,3 +49,14 @@
 .nav-items li{
   padding: 10px;
 }
+.footerr{
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.footerr p {
+  align-items: center;
+  margin: auto;
+}
