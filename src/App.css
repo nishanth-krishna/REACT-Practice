@@ -38,6 +38,9 @@
   }
 }
 
+
+
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -59,4 +62,21 @@
 .footerr p {
   align-items: center;
   margin: auto;
+}
+body{
+  background-color: rgb(16, 46, 46);
+  color: white;
+}
+header{
+  background-color: rgb(17, 36, 36);
+  color: white;
+}
+.facts li::marker{
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+.main{
+  background-image: url(./logo.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
